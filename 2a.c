@@ -14,7 +14,7 @@ int main(int argc, char** argv) {
 	//Comprobamos que el numero de argumentos es el adecuado
 	if (argc != 7) {
 		printf("Numero de parametros de entrada incorrecto. Uso:\n");
-		printf("./2a -b <base> -e >exponente> -m <modulo>\n");
+		printf("./potencia -b <base> -e >exponente> -m <modulo>\n");
 		clear(base, exp, mod, potencia, aux);
 		return -1;
 	}
@@ -22,7 +22,7 @@ int main(int argc, char** argv) {
 	//Conseguimos los argumentos de entrada
 	if (getArgs(argc, argv, base, exp, mod) == -1) {
 		printf("Argumentos de entrada incorrectos. Uso:\n");
-		printf("./2a -b <base> -e >exponente> -m <modulo> \n");
+		printf("./potencia -b <base> -e >exponente> -m <modulo> \n");
 		clear(base, exp, mod, potencia, aux);
 	}
 
