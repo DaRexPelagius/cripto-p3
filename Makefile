@@ -9,3 +9,12 @@ cleanpotencia:
 primo: 2b.c 2b.c 2b.h 
 	gcc 2b.c -o primo -g -Wall -O2 -lgmp -lm
 	
+cleanprimo: 
+	rm primo
+	
+factorizacionRSA: 2c.c 2c.c 2c.h 
+	gcc 2c.c -o factorizacionRSA -g -Wall -O2 -lgmp -lm
+	
+cleanfactorizacionRSA: 
+	rm factorizacionRSA
+	
